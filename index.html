@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="bar">
+            <div class="header" id="Shiraz">
+                <h1>Shiraz</h1>
+                <p class="header__text">Shiraz is a city in Fars</p>
+            </div>
+            <div class="header" id="Isfahan">
+                <h1>Isfahan</h1>
+                <p class="header__text">Isfahan is a city in Iran</p>
+            </div>
+            <div class="header" id="Tehran">
+                <h1>Tehran</h1>
+                <p class="header__text">Tehran is captial of Iran</p>
+            </div>
+            <div class="header" id="Tabriz">
+                <h1>Tabriz</h1>
+                <p class="header__text">Tabris is a city north of Iran</p>    
+            </div>            
+            <ul class="bar__list clear-fix">
+                <li><button class="bar__item" id="defaultActive" onclick="opencity('Shiraz',this,'rgb(238, 171, 54)')">Shiraz</button></li>
+                <li><button class="bar__item" onclick="opencity('Isfahan',this,'rgb(0, 186, 164)')">Isfahan</button></li>
+                <li><button class="bar__item" onclick="opencity('Tehran',this,'rgb(243, 61, 61)')">Tehran</button></li>
+                <li><button class="bar__item" onclick="opencity('Tabriz',this,'rgb(42, 207, 27)')">Tabriz</button></li>
+            </ul>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>

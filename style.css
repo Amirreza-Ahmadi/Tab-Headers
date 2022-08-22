@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html { 
+    font-size: 62.5%;
+}
+
+.clear-fix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+.bar {
+    background-color: #eee;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.bar__list {
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.bar__item {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 1.6rem 0;
+    transition: 0.2s all ease;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+
+.bar__item:hover {
+    background-color: #ddd;
+}
+
+.header {
+    text-align: center;
+}
+
+.header {
+    font-size: 1.4rem;
+    display: none;
+    padding: 10rem;
+    color: #fff;
+}
+
+.header__text {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+}
+
+.header h1 {
+    font-weight: 200;
+    font-size: 4rem;
+}
+
+#Shiraz {
+    background-color: rgb(238, 171, 54);
+}
+
+#Isfahan {
+    background-color: rgb(0, 186, 164);
+}
+
+#Tehran {
+    background-color: rgb(243, 61, 61);
+}
+
+#Tabriz {
+    background-color: rgb(42, 207, 27);
+}
